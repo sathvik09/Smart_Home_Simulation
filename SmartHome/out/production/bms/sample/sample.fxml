@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+
+<GridPane alignment="center" rotate="-91.2" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <VBox rotate="37.1">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#187cda" height="400.0" stroke="BLACK" strokeType="INSIDE" width="400.0" x="-10.0" />
+            <AmbientLight color="CHARTREUSE" lightOn="true" rotate="120.4" />
+         </children>
+      </VBox>
+   </children>
+</GridPane>
